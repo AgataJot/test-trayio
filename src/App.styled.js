@@ -14,11 +14,12 @@ export const ConnectorStyled = styled.div`
   color: #7a7a7a;
   span {
     position: absolute;
-    top: -13px;
+    top: -15px;
     left: calc(50% - 100px);
     display: block;
     width: 200px;
     text-align: center;
+    pointer-events: none;
   }
 `;
 
